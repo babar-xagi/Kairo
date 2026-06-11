@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "crates/kairo-cli",
+    "crates/kairo-config",
+    "crates/kairo-build",
+    "crates/kairo-android",
+    "crates/kairo-desktop",
+    "crates/kairo-native",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.96"
+authors = ["Kairo Contributors"]
+license = "MIT"
+repository = "https://example.invalid/kairo"
+

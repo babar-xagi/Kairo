@@ -1,0 +1,10 @@
+target/
+.kairo/
+**/.kairo/
+*.apk
+*.aab
+*.keystore
+local.properties
+.gradle/
+build/
+

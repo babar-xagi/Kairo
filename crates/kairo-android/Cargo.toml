@@ -1,0 +1,10 @@
+[package]
+name = "kairo-android"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+kairo-config = { path = "../kairo-config" }
